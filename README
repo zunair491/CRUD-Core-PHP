@@ -1,1 +1,5 @@
 Getting started on a new project requires setting up the same basic functions.  With this CRUD I can quickly spin up a site that has user registration, login, basic security, and more to come.
+
+To Do:
+  * include database config
+  * form validation
