@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <html>
 
 <h1>Register a New Account</h1>
