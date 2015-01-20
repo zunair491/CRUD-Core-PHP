@@ -18,7 +18,7 @@
 
 <?php
 if ($_REQUEST['loginid']) {
-   mysql_connect("localhost", "root", "123456");
+   mysql_connect("ec2-54-167-109-211.compute-1.amazonaws.com", "root", "Conrad!1");
    mysql_select_db("user_accounts");
    $sql='INSERT INTO tbl_login (loginid, password, email) VALUES ("' . mysql_real_escape_string($_REQUEST['loginid']) . '","' . mysql_real_escape_string($_REQUEST['password']) . '","' . mysql_real_escape_string($_REQUEST['email']) . '")';
 
