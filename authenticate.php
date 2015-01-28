@@ -1,6 +1,6 @@
 <?php
 
-   mysql_connect("10.72.109.36","asim","Conrad!1");
+   mysql_connect("10.8.39.86","asim","Conrad!1");
    mysql_select_db("user_accounts");
    $sql="SELECT loginid FROM tbl_login WHERE loginid='"  .  mysql_real_escape_string($_REQUEST['loginid'])
  . "' AND password='".mysql_real_escape_string($_REQUEST['password'])  .  "'";
