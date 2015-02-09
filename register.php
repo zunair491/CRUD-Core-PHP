@@ -18,7 +18,7 @@
 
 <?php
 if ($_REQUEST['loginid']) {
-   mysql_connect("10.4.89.79", "asim", "Conrad!1");
+   mysql_connect("10.4.158.245", "asim", "Conrad!1");
    mysql_select_db("user_accounts");
    $sql='INSERT INTO tbl_login (loginid, password, email) VALUES ("' . mysql_real_escape_string($_REQUEST['loginid']) . '","' . mysql_real_escape_string($_REQUEST['password']) . '","' . mysql_real_escape_string($_REQUEST['email']) . '")';
 
